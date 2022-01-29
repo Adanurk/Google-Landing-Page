@@ -1,8 +1,3 @@
-.main__search-bar--magnifier,
-.main__search-bar--microphone {
-    width: 15px;
-}
-
 *{
     margin: 0px;
     padding: 0px;
@@ -78,7 +73,7 @@ ul a:hover{
     width: 272px;
     height: 95px;
     margin: 200px auto 0px;
-    display: block;
+    display: block;/* margin is auto and display block so it is in the middle now */
 }
 
 .main__search-bar{
@@ -87,3 +82,64 @@ ul a:hover{
     border: 1px solid #d3d3d3;
     border-radius: 25px;
     margin: 28px auto;
+}
+
+.main__search-bar:hover{
+    box-shadow: rgb(211,211,211)3px 3px 5px 0px;
+}
+
+.main__search-bar--magnifier{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-left: 10px;
+
+}
+.main__search-bar--input{
+    width: 380px;
+    height: 28px;
+    border: none;
+    outline: none;
+    margin-top: 3px;
+    font-size: 16px;
+}
+
+.main__search-bar--microphone {
+    width: 15px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.main__buttons{
+    text-align: center;
+}
+
+.main__button--left,
+.main__button--right{
+    height: 36px;
+    border: none;
+    background-color: #efefef;
+    border-radius: 4px;
+    padding: 1px 6px;
+    margin: 8px 4px;
+}
+
+.main__button--left:hover,
+.main__button--right:hover{
+    border: 1px solid #d3d3d3;
+    cursor: pointer;
+}
+
+.main__language{
+    text-align: center;
+    margin: 20px 0 px 13px;
+}
+
+.main__language a{
+    color: #000080;
+}
+
+/* footer */
+
+
+
