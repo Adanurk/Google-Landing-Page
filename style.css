@@ -141,5 +141,31 @@ ul a:hover{
 
 /* footer */
 
+.footer{
+    position: fixed; 
+    /*fist we said fix it, then we said where to fix it */
+    bottom: 0px;
+    background-color: #f2f2f2;
+    line-height: 40px;
+    width: 100%;
+    color: #5f6368;
+}
 
+.footer__country{
+    padding-left: 20px;
+}
 
+.footer__bottom{
+    border-top: solid 1px #e4e4e4;
+}
+
+.footer__bottom--left{
+    float: left;
+    padding: 10px;
+
+}
+
+.footer__bottom--right{
+    float: right;
+
+}

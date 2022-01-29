@@ -43,5 +43,3 @@ Build a Landing that is functionally similar to this: [Google Landing Page](http
 - Overflow Property-The float Property-Opacity / Transparency-Units in CSS
 
 - CSS Setting height and width-CSS Outline-CSS Combinators
-
-
