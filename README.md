@@ -1,5 +1,7 @@
 ## Google Landing Page
 
+**the [preview](https://adanurk.github.io/Google-Landing-Page/)**
+
 ## Description
 Project aims to create google landing page.
 
